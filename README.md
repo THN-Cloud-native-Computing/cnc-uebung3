@@ -56,7 +56,7 @@ Wenn Sie die VM über ssh ansteuern, greift Vagrant auf den privaten Schlüssel 
    ```bash
 .vagrant
    ```
-heißt, und die folgende Verzeichnisstruktur aufweist:
+heißt, die folgende Verzeichnisstruktur aufweist und den privaten Schlüssel für die Verbindung enthält:
 
 ![ssh_v_private_key.png](ssh_v_private_key.png)
 
