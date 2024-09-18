@@ -2,7 +2,16 @@
 
 **Vorbereitung:**
 
-Homebrew ist eine frei und quelloffene Paketverwaltung, welche die Installation von Software auf den Betriebssystemen Linux und macOS vereinfacht. Für diese und die folgenden Übungen kann es hilfreich sein, Homebrew vorab zu installieren: [Homebrew](https://brew.sh/) 
+Homebrew ist eine freie und quelloffene Paketverwaltung, welche die Installation von Software auf den Betriebssystemen Linux und macOS vereinfacht. Für diese und die folgenden Übungen kann es hilfreich sein, Homebrew vorab zu installieren: [Homebrew](https://brew.sh/) 
+
+Auch dieses Repository können Sie wieder über git klonen.
+
+**Aufgabe 1 - Provisionierung einer Virtuellen Maschine und eines Webservers mit Vagrant**
+
+Anmerkung: Für diese Aufgabe benötigen wir VirtualBox. Leider funktioniert VirtualBox nicht mit jedem Rechner-Chipsatz zuverlässig. Problematisch sind z. B. MacBooks mit Apple Silicon Chips.
+
+- Installieren Sie [VirtualBox](https://www.virtualbox.org/)
+- Installieren Sie [Vagrant](https://developer.hashicorp.com/vagrant/install)
 
 In dieser Übung verwenden wir GitLab um Deployment-Pipelines zu entwickeln. Die Prinzipien lassen sich jedoch auch mit anderen CI/CD-Diensten entwickeln. GitLab kann entweder auf dem lokalen Rechner installiert werden oder in der Cloud verwendet werden, indem man auf [GitLab.com](http://www.gitlab.com) kostenlos einen Account anlegt. Das Anlegen eines Accounts für diese Übung ist natürlich freiwillig. Anmerkung: Das 30-day-trial bezieht sich nur auf die Ultimate-Variante, alle anderen Dienste können auch darüber hinaus genutzt werden.
 
