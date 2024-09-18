@@ -21,6 +21,44 @@ Prüfen Sie folgendermaßen, ob Vagrant korrekt installiert ist:
    ```bash
 vagrant --version
    ```
+Initialisieren Sie ein Vagrantfile mit einem Ubuntu-Image:
+
+   ```bash
+vagrant init bento/ubuntu-22.04
+   ```
+Prüfen Sie, ob ein Vagrantfile angelet wurde und schauen Sie es sich einmal an. Die meisten Zeilen sind momentan noch auskommentiert, aber das ändern wir noch.  
+
+Starten Sie nun eine Vagrant-VM mit
+
+   ```bash
+vagrant up
+   ```
+
+Prüfen Sie den Status der VM:
+
+   ```bash
+vagrant status
+   ```
+
+Schauen Sie sich die ssh-Konfiguration der Maschine an:
+
+   ```bash
+vagrant ssh-config
+   ```
+
+Sie können die VM folgendermaßen über ssh ansteuern:
+
+   ```bash
+vagrant ssh
+   ```
+Wenn Sie die VM über ssh ansteuern, greift Vagrant auf den privaten Schlüssel zu, der beim Starten der Maschine angelegt wurde. Gehen Sie dazu einmal in das Verzeichnis mit dem Vagrantfile. Lassen Sie sich ggf. auch versteckte Verzeichnise und Dateien anzeigen. Sie sollten dort ein Verzeichnis finden, dass
+
+   ```bash
+.vagrant
+   ```
+heißt, und die folgende Verzeichnisstruktur aufweist:
+
+![ssh_v_private_key.png](ssh_v_private_key.png)
 
 In dieser Übung verwenden wir GitLab um Deployment-Pipelines zu entwickeln. Die Prinzipien lassen sich jedoch auch mit anderen CI/CD-Diensten entwickeln. GitLab kann entweder auf dem lokalen Rechner installiert werden oder in der Cloud verwendet werden, indem man auf [GitLab.com](http://www.gitlab.com) kostenlos einen Account anlegt. Das Anlegen eines Accounts für diese Übung ist natürlich freiwillig. Anmerkung: Das 30-day-trial bezieht sich nur auf die Ultimate-Variante, alle anderen Dienste können auch darüber hinaus genutzt werden.
 
