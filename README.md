@@ -28,13 +28,13 @@ vagrant init bento/ubuntu-22.04
    ```
 Prüfen Sie, ob ein Vagrantfile angelet wurde und schauen Sie es sich einmal an. Die meisten Zeilen sind momentan noch auskommentiert, aber das ändern wir noch.  
 
-Starten Sie nun eine Vagrant-VM mit
+(1) Starten Sie nun eine Vagrant-VM mit
 
    ```bash
 vagrant up
    ```
 
-Prüfen Sie den Status der VM:
+(2) Prüfen Sie den Status der VM:
 
    ```bash
 vagrant status
