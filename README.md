@@ -51,7 +51,7 @@ Sie können die VM folgendermaßen über ssh ansteuern:
    ```bash
 vagrant ssh
    ```
-Wenn Sie die VM über ssh ansteuern, greift Vagrant auf den privaten Schlüssel zu, der beim Starten der Maschine angelegt wurde. Gehen Sie dazu einmal in das Verzeichnis mit dem Vagrantfile. Lassen Sie sich ggf. auch versteckte Verzeichnise und Dateien anzeigen. Sie sollten dort ein Verzeichnis finden, dass
+Anmerkung: Wenn Sie die VM über ssh ansteuern, greift Vagrant auf den privaten Schlüssel zu, der beim Starten der Maschine angelegt wurde. Gehen Sie dazu einmal in das Verzeichnis mit dem Vagrantfile. Lassen Sie sich ggf. auch versteckte Verzeichnise und Dateien anzeigen. Sie sollten dort ein Verzeichnis finden, dass
 
    ```bash
 .vagrant
@@ -59,6 +59,46 @@ Wenn Sie die VM über ssh ansteuern, greift Vagrant auf den privaten Schlüssel 
 heißt, die folgende Verzeichnisstruktur aufweist und den privaten Schlüssel für die Verbindung enthält:
 
 ![ssh_v_private_key.png](ssh_v_private_key.png)
+
+Führen Sie zunächst mal ein Update durch mit:
+
+   ```bash
+sudo apt-get update
+   ```
+Installieren Sie nun einen Apache Webserver auf der VM:
+
+   ```bash
+sudo apt-get install apache2 –y
+   ```
+
+Starten Sie nun den Webserver mit:
+
+   ```bash
+sudo service apache2 start
+   ```
+Prüfen Sie den Status des Webservers:
+   ```bash
+sudo service apache2 status
+   ```
+Öffnen Sie nun ein neues Terminal und navigieren Sie in das Verzeichnis, in dem das Vagrantfile liegt.
+
+Steuern Sie nun die Vagrant-VM per ssh an:
+
+   ```bash
+vagrant ssh
+   ```
+Sie können den Server nun mit cURL aufrufen:
+
+   ```bash
+curl localhost
+   ```
+
+Was bekommen Sie zurück?
+
+
+
+
+
 
 In dieser Übung verwenden wir GitLab um Deployment-Pipelines zu entwickeln. Die Prinzipien lassen sich jedoch auch mit anderen CI/CD-Diensten entwickeln. GitLab kann entweder auf dem lokalen Rechner installiert werden oder in der Cloud verwendet werden, indem man auf [GitLab.com](http://www.gitlab.com) kostenlos einen Account anlegt. Das Anlegen eines Accounts für diese Übung ist natürlich freiwillig. Anmerkung: Das 30-day-trial bezieht sich nur auf die Ultimate-Variante, alle anderen Dienste können auch darüber hinaus genutzt werden.
 
