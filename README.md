@@ -104,14 +104,27 @@ ip route get 1.2.3.4 | awk '{print $7}'
 Sie können nun einmal überprüfen, ob Sie mit cURL den gleichen Output bekommen:
 
    ```bash
-curl [IP-Adress]
+curl [IP-Adresse]
    ```
 Probieren Sie einmal die IP-Adresse im Browser aufzurufen:
 
    ```bash
-http://[IP-Adress]
+http://[IP-Adresse]
    ```
+Was passiert?  
 
+Wir fahren den Server und die VM nun zunächst einmal wieder herunter. Hierzu öffnen wir ein neues Terminal, und lassen uns zunächst einmal alle Vagrant-VMs anzeigen mit:
+
+   ```bash
+vagrant global-status
+
+   ```
+Sie sollten nun ihre Vagrant-VM und ihre zugehörige Prozess-ID sehen. Über folgenden Befehl können sie diese herunterfahren und löschen:
+
+   ```bash
+vagrant destroy [Prozess-ID]
+
+   ```
 
 
 In dieser Übung verwenden wir GitLab um Deployment-Pipelines zu entwickeln. Die Prinzipien lassen sich jedoch auch mit anderen CI/CD-Diensten entwickeln. GitLab kann entweder auf dem lokalen Rechner installiert werden oder in der Cloud verwendet werden, indem man auf [GitLab.com](http://www.gitlab.com) kostenlos einen Account anlegt. Das Anlegen eines Accounts für diese Übung ist natürlich freiwillig. Anmerkung: Das 30-day-trial bezieht sich nur auf die Ultimate-Variante, alle anderen Dienste können auch darüber hinaus genutzt werden.
