@@ -28,13 +28,13 @@ vagrant init bento/ubuntu-22.04
    ```
 Prüfen Sie, ob ein Vagrantfile angelet wurde und schauen Sie es sich einmal an. Die meisten Zeilen sind momentan noch auskommentiert, aber das ändern wir noch.  
 
-(1) Starten Sie nun eine Vagrant-VM mit
+Starten Sie nun eine Vagrant-VM mit
 
    ```bash
 vagrant up
    ```
 
-(2) Prüfen Sie den Status der VM:
+Prüfen Sie den Status der VM:
 
    ```bash
 vagrant status
@@ -125,7 +125,26 @@ Sie sollten nun ihre Vagrant-VM und ihre zugehörige Prozess-ID sehen. Über fol
 vagrant destroy [Prozess-ID]
 
    ```
+Öffnen Sie das Vagrantfile nun einmal mit einem Code- oder Texteditor. Löschen Sie die Raute # vor folgenden Zeilen (Kommentierung) und speichern Sie die Datei so:
 
+   ```bash
+config.vm.network "private_network", ip: "192.168.33.10"
+
+   ```
+   ```bash
+config.vm.network "public_network"
+
+   ```
+   ```bash
+config.vm.network "forwarded_port", guest: 80, host: 8080
+
+
+   ```
+Starten Sie die Vagrant-VM nun noch einmal und installieren Sie den Apache Webserver wie in den Schritten oben erklärt.  
+
+Hinweis: Wenn Sie die Vagrant-VM neu starten, werden Sie gefragt, über welche Schnittstelle diese zugänglich sein soll. Hier können Sie z.B. die WLAN-Verbindung auswählen:
+
+![network_interface.png](network_interface.png)
 
 In dieser Übung verwenden wir GitLab um Deployment-Pipelines zu entwickeln. Die Prinzipien lassen sich jedoch auch mit anderen CI/CD-Diensten entwickeln. GitLab kann entweder auf dem lokalen Rechner installiert werden oder in der Cloud verwendet werden, indem man auf [GitLab.com](http://www.gitlab.com) kostenlos einen Account anlegt. Das Anlegen eines Accounts für diese Übung ist natürlich freiwillig. Anmerkung: Das 30-day-trial bezieht sich nur auf die Ultimate-Variante, alle anderen Dienste können auch darüber hinaus genutzt werden.
 
