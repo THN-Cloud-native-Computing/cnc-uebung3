@@ -93,10 +93,24 @@ Sie können den Server nun mit cURL aufrufen:
 curl localhost
    ```
 
-Was bekommen Sie zurück?
+Was bekommen Sie zurück?  
 
+Ermitteln Sie nun die IP-Adresse der VM mit:
 
+   ```bash
+ip route get 1.2.3.4 | awk '{print $7}'
 
+   ```
+Sie können nun einmal überprüfen, ob Sie mit cURL den gleichen Output bekommen:
+
+   ```bash
+curl [IP-Adress]
+   ```
+Probieren Sie einmal die IP-Adresse im Browser aufzurufen:
+
+   ```bash
+http://[IP-Adress]
+   ```
 
 
 
