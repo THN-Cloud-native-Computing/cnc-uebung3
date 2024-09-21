@@ -138,7 +138,6 @@ config.vm.network "public_network"
    ```bash
 config.vm.network "forwarded_port", guest: 80, host: 8080
 
-
    ```
 Starten Sie die Vagrant-VM nun noch einmal und installieren Sie den Apache Webserver wie in den Schritten oben erklärt.  
 
@@ -150,13 +149,26 @@ Sie sollten nun den Startbildschirm des Apache Webservers sehen.
 
 ![apache2.png](apache2.png)
 
+
+
+
 **Aufgabe 2 - Provisionierung eines Nginx Webservers mit Terraform**
 
 Anmerkung: Obwohl wir uns erst zu einem späteren Zeitpunkt noch genauer mit Container-Technologien befassen werden, können wir für diese Übung der Einfachheit halber schon einmal Docker verwenden.  
 
 - Installieren Sie [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-Starten Sie Docker Desktop.  
+Starten Sie Docker Desktop. Über die Kommandozeile geht das auch folgendermaßen:
 
-Anmerkung: Obwohl wir es jetzt noch nicht brauchen, können Sie unter Settings schon einmal Kubernetes aktivieren. Setzen Sie einfach den entsprechenden Haken.  
+   ```bash
+open -a Docker
+   ```
+
+Anmerkung: Obwohl wir es jetzt noch nicht brauchen, können Sie unter Settings --> Kubernetes schon einmal Kubernetes aktivieren. Setzen Sie einfach den entsprechenden Haken.  
+
+- Installieren Sie [Terraform](https://www.terraform.io/)
+
+Über Homebrew können Sie Terraform folgendermaßen installieren:
+
+
 
