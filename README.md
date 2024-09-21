@@ -213,4 +213,4 @@ http://localhost:8000
 
 auf. Sie sollten nun die Startseite des nginx-Servers sehen.
 
-![nginx.png](nginx.png)
+![nginx.jpeg](nginx.jpeg)
