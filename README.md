@@ -150,3 +150,13 @@ Sie sollten nun den Startbildschirm des Apache Webservers sehen.
 
 ![apache2.png](apache2.png)
 
+**Aufgabe 2 - Provisionierung eines Nginx Webservers mit Terraform**
+
+Anmerkung: Obwohl wir uns erst zu einem späteren Zeitpunkt noch genauer mit Container-Technologien befassen werden, können wir für diese Übung der Einfachheit halber schon einmal Docker verwenden.  
+
+- Installieren Sie [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+Starten Sie Docker Desktop.  
+
+Anmerkung: Obwohl wir es jetzt noch nicht brauchen, können Sie unter Settings schon einmal Kubernetes aktivieren. Setzen Sie einfach den entsprechenden Haken.  
+
