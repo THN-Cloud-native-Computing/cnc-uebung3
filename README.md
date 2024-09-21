@@ -189,7 +189,11 @@ So können Sie sich die Terraform-Kommandos anzeigen lassen:
 terraform -help
 
    ```
-Fügen Sie dem Verzeichnis zu dieser Aufgabe nun eine Datei namens main.tf zu mit dem Code aus der gleichnamigen Datei aus diesem Repository.  
+Fügen Sie dem Verzeichnis zu dieser Aufgabe nun eine Datei namens 
+   ```bash
+main.tf 
+   ```
+zu mit dem Code aus der gleichnamigen Datei aus diesem Repository.  
 
 Nun können Sie über Terraform den Webserver starten:
    ```bash
@@ -208,3 +212,5 @@ http://localhost:8000
    ```
 
 auf. Sie sollten nun die Startseite des nginx-Servers sehen.
+
+![nginx.png](nginx.png)
