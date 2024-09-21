@@ -149,12 +149,14 @@ Sie sollten nun den Startbildschirm des Apache Webservers sehen.
 
 ![apache2.png](apache2.png)
 
-
-
   
 
+    
+  
 
 **Aufgabe 2 - Provisionierung eines Nginx Webservers mit Terraform**
+
+Legen Sie ein Verzeichnis für diese Aufgabe an. Öffnen Sie ein Terminal und navigieren Sie in das Verzeichnis für diese Aufgabe.  
 
 Anmerkung: Obwohl wir uns erst zu einem späteren Zeitpunkt noch genauer mit Container-Technologien befassen werden, können wir für diese Übung der Einfachheit halber schon einmal Docker verwenden.  
 
