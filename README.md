@@ -148,4 +148,5 @@ http://192.168.33.10
 ```
 Sie sollten nun den Startbildschirm des Apache Webservers sehen.
 
+![apache2.png](apache2.png)
 
