@@ -151,6 +151,8 @@ Sie sollten nun den Startbildschirm des Apache Webservers sehen.
 
 
 
+  
+
 
 **Aufgabe 2 - Provisionierung eines Nginx Webservers mit Terraform**
 
@@ -164,11 +166,45 @@ Starten Sie Docker Desktop. Über die Kommandozeile geht das auch folgendermaße
 open -a Docker
    ```
 
-Anmerkung: Obwohl wir es jetzt noch nicht brauchen, können Sie unter Settings --> Kubernetes schon einmal Kubernetes aktivieren. Setzen Sie einfach den entsprechenden Haken.  
+Anmerkung: Obwohl wir es jetzt noch nicht brauchen, können Sie unter Settings -> Kubernetes schon einmal Kubernetes aktivieren. Setzen Sie einfach den entsprechenden Haken.  
 
 - Installieren Sie [Terraform](https://www.terraform.io/)
 
 Über Homebrew können Sie Terraform folgendermaßen installieren:
 
+   ```bash
+brew tap hashicorp/tap
 
+   ```
+   ```bash
+brew install hashicorp/tap/terraform
 
+   ```
+   ```bash
+brew upgrade hashicorp/tap/terraform
+   ```
+
+So können Sie sich die Terraform-Kommandos anzeigen lassen:
+   ```bash
+terraform -help
+
+   ```
+Fügen Sie dem Verzeichnis zu dieser Aufgabe nun eine Datei namens main.tf zu mit dem Code aus der gleichnamigen Datei aus diesem Repository.  
+
+Nun können Sie über Terraform den Webserver starten:
+   ```bash
+terraform init
+
+   ```
+   ```bash
+terraform apply
+
+   ```
+
+Rufen Sie in ihrem Browser nun 
+   ```bash
+http://localhost:8000
+
+   ```
+
+auf. Sie sollten nun die Startseite des nginx-Servers sehen.
