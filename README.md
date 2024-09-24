@@ -221,11 +221,14 @@ auf. Sie sollten nun die Startseite des nginx-Servers sehen.
 
 Hinweis: Diese Übung ist freiwillig! Sie erfordert zumindest das Anlegen eines kostenlosen Testaccounts unter [https://cloud.google.com/](https://cloud.google.com/). Selbst der kostenlose Test-Account erfordert jedoch die Angabe von z. B. Kreditkarteninformationen. Es liegt in ihrem eigenen Ermessen, ob Sie entsprechende Angaben machen möchten. Wichtig ist in jedem Fall, die angelegten Ressourcen wieder zu löschen (wie, das wird in dieser Anleitung erklärt). Die Verwendung der entsprechenden Dienste erfolgt jedoch unter eigener Verantwortung!  
 
-Anmerkung: Wir nutzen hier ein IaaS-Angebot der Google Cloud exemplarisch. Dies lässt sich bei anderen Cloud-Providern wie AWS, Azure, IBM etc. in ähnlicher Weise nutzen.  
-
-Ziel dieser Aufgabe ist es, eine virtuelle Maschine in der Google Cloud anzulegen und darauf eine einfach Applikation zu installieren. Hierzu steht die untenstehende Anleitung zur Verfügung. Wenn Sie alle Schritte erfolgreich durchgeführt haben, sollten Sie etwas sehen. Die Frage ist, was? :-)
+Anmerkung: Wir nutzen hier ein IaaS-Angebot der Google Cloud exemplarisch. Dies lässt sich bei anderen Cloud-Providern wie AWS, Azure, IBM etc. in ähnlicher Weise nutzen. 
 
 ![googlevm.png](googlevm.png)
+
+  
+Ziel dieser Aufgabe ist es, eine virtuelle Maschine in der Google Cloud anzulegen und darauf eine einfach Applikation zu installieren. Hierzu steht die untenstehende Anleitung zur Verfügung. Wenn Sie alle Schritte erfolgreich durchgeführt haben, sollten Sie etwas sehen. Die Frage ist, was? :-)
+
+
 
 Hier geht es zur Anleitung:  [Anleitung_Google_Cloud_VM_v1.pdf](https://github.com/THN-Cloud-native-Computing/cnc-uebung3/blob/main/Anleitung_Google_Cloud_VM_v1.pdf)
 
