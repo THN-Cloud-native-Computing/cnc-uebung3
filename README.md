@@ -216,3 +216,15 @@ http://localhost:8000
 auf. Sie sollten nun die Startseite des nginx-Servers sehen.
 
 ![nginx.jpeg](nginx.jpeg)
+
+**Aufgabe 3 - Anlegen einer Virtuellen Maschine in der Google Cloud und Installation einer einfachen Applikation**
+
+Hinweis: Diese Übung ist freiwillig! Sie erfordert zumindest das Anlegen eines kostenlosen Testaccounts unter [https://cloud.google.com/](https://cloud.google.com/). Selbst der kostenlose Test-Account erfordert jedoch die Angabe von z. B. Kreditkarteninformationen. Es liegt in ihrem eigenen Ermessen, ob Sie entsprechende Angaben machen möchten. Wichtig ist in jedem Fall, die angelegten Ressourcen wieder zu löschen (wie, das wird in dieser Anleitung erklärt). Die Verwendung der entsprechenden Dienste erfolgt jedoch unter eigener Verantwortung!  
+
+Anmerkung: Wir nutzen hier ein IaaS-Angebot der Google Cloud exemplarisch. Dies lässt sich bei anderen Cloud-Providern wie AWS, Azure, IBM etc. in ähnlicher Weise nutzen.
+
+
+
+
+
+
