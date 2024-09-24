@@ -227,7 +227,7 @@ Ziel dieser Aufgabe ist es, eine virtuelle Maschine in der Google Cloud anzulege
 
 ![googlevm.png](googlevm.png)
 
-Hier geht es zur Anleitung:  ![Anleitung_Google_Cloud_VM_v1.pdf](Anleitung_Google_Cloud_VM_v1.pdf) 
+Hier geht es zur Anleitung:  [Anleitung_Google_Cloud_VM_v1.pdf](https://github.com/THN-Cloud-native-Computing/cnc-uebung3/blob/main/Anleitung_Google_Cloud_VM_v1.pdf)
 
 
 
