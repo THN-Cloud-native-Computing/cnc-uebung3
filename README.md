@@ -225,7 +225,9 @@ Anmerkung: Wir nutzen hier ein IaaS-Angebot der Google Cloud exemplarisch. Dies 
 
 Ziel dieser Aufgabe ist es, eine virtuelle Maschine in der Google Cloud anzulegen und darauf eine einfach Applikation zu installieren. Hierzu steht die untenstehende Anleitung zur Verfügung. Wenn Sie alle Schritte erfolgreich durchgeführt haben, sollten Sie etwas sehen. Die Frage ist, was? :-)
 
-Hier geht es zur Anleitung: 
+![googlevm.png](googlevm.png)
+
+Hier geht es zur Anleitung:  ![Anleitung_Google_Cloud_VM_v1.pdf](Anleitung_Google_Cloud_VM_v1.pdf) 
 
 
 
