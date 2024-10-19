@@ -51,7 +51,7 @@ Sie können die VM folgendermaßen über ssh ansteuern:
    ```bash
 vagrant ssh
    ```
-Anmerkung: Wenn Sie die VM über ssh ansteuern, greift Vagrant auf den privaten Schlüssel zu, der beim Starten der Maschine angelegt wurde. Gehen Sie dazu einmal in das Verzeichnis mit dem Vagrantfile. Lassen Sie sich ggf. auch versteckte Verzeichnise und Dateien anzeigen. Sie sollten dort ein Verzeichnis finden, dass
+Anmerkung: Wenn Sie die VM über ssh ansteuern, greift Vagrant auf den privaten Schlüssel zu, der beim Starten der Maschine angelegt wurde. Gehen Sie dazu einmal in das Verzeichnis mit dem Vagrantfile. Lassen Sie sich ggf. auch versteckte Verzeichnise und Dateien anzeigen. Sie sollten dort ein Verzeichnis finden, das
 
    ```bash
 .vagrant
