@@ -68,7 +68,7 @@ sudo apt-get update
 Installieren Sie nun einen Apache Webserver auf der VM:
 
    ```bash
-sudo apt-get install apache2 –y
+sudo apt-get install apache2
    ```
 
 Starten Sie nun den Webserver mit:
