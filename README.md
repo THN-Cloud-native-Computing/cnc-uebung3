@@ -185,7 +185,10 @@ brew install hashicorp/tap/terraform
    ```bash
 brew upgrade hashicorp/tap/terraform
    ```
-
+Sie können die Installation dann überprüfen mit
+   ```bash
+terraform --version
+   ```
 So können Sie sich die Terraform-Kommandos anzeigen lassen:
    ```bash
 terraform -help
@@ -216,6 +219,12 @@ http://localhost:8000
 auf. Sie sollten nun die Startseite des nginx-Servers sehen.
 
 ![nginx.jpeg](nginx.jpeg)
+
+Stoppen Sie den Container über das Docker Desktop Dashboard.  
+
+Schreiben Sie nun eine Terraform-Konfigurationsdatei (main.tf) die zwei unterschiedliche Webserver (z. B. einen Apache und einen Nginx) startet.  
+
+Fahren Sie die Ressourcen anschließend wie oben angegeben auch wieder herunter.
 
 **Aufgabe 3 - Anlegen einer Virtuellen Maschine in der Google Cloud und Installation einer einfachen Applikation**
 
