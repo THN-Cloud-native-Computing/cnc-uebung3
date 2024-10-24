@@ -226,6 +226,8 @@ Stoppen Sie den Container über das Docker Desktop Dashboard.
 
 Schreiben Sie nun eine Terraform-Konfigurationsdatei (main.tf) die zwei unterschiedliche Webserver (z. B. einen Apache und einen Nginx) startet.  
 
+Starten Sie die Server über Terraform und überprüfen Sie, ob Sie korrekt laufen.  
+
 Fahren Sie die Ressourcen anschließend wie oben angegeben auch wieder herunter.
 
 **Aufgabe 3 - Anlegen einer Virtuellen Maschine in der Google Cloud und Installation einer einfachen Applikation**
