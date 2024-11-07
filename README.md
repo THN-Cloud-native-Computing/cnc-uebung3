@@ -1,4 +1,4 @@
-# Übung 3
+# Übung 3 - Infrastructure as Code
 
 **Vorbereitung:**
 
