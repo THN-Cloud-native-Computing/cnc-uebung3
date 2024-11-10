@@ -236,7 +236,7 @@ auf. Sie sollten nun die Startseite des nginx-Servers sehen.
 
 Stoppen Sie den Container über das Docker Desktop Dashboard.  
 
-**Aufgabe 2.1 - Mehrere Webserver mit Terraform starten**
+**Aufgabe 4 - Mehrere Webserver mit Terraform starten**
 
 Schreiben Sie nun eine Terraform-Konfigurationsdatei (main.tf) die zwei unterschiedliche Webserver (z. B. einen Apache und einen Nginx) startet.  
 
